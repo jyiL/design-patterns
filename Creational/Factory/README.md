@@ -5,6 +5,6 @@
 而不需要在你的代码中寻找具体实例化的地方再单独的进行修改. 提供灵活的动态扩展机制,减少我们代码的耦合性
 
 ### PHP工厂模式
-* [简单工厂模式](SimpleFactory)
-* [工厂方法模式]()
-* [抽象工厂模式](AbstractFactory)
+* [简单工厂模式](./SimpleFactory)
+* [工厂方法模式](./FactoryMethod)
+* [抽象工厂模式](./AbstractFactory)
