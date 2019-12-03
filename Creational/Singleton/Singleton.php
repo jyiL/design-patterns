@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPattern\Singleton;
+namespace PHPDesignPattern\Singleton;
 
 class Singleton
 {

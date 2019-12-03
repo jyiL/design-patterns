@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPattern\Factory\SimpleFactory;
+namespace PHPDesignPattern\Factory\SimpleFactory;
 
 class WeChatPay implements PaySimpleFactory
 {

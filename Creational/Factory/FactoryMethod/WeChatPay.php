@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPattern\Factory\FactoryMethod;
+namespace PHPDesignPattern\Factory\FactoryMethod;
 
 class WeChatPay implements CreatePay
 {

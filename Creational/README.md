@@ -2,5 +2,5 @@
 * [工厂](./Factory)
 * [抽象工厂](./Factory)
 * [单例](./Singleton)
-* 建造者
-* 原型
+* [建造者](./Builder)
+* [原型](./Prototype)

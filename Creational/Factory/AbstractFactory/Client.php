@@ -1,9 +1,9 @@
 <?php
 
-require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../../../vendor/autoload.php';
 
-use DesignPattern\Factory\AbstractFactory\ManFactory;
-use DesignPattern\Factory\AbstractFactory\WomanFactory;
+use PHPDesignPattern\Factory\AbstractFactory\ManFactory;
+use PHPDesignPattern\Factory\AbstractFactory\WomanFactory;
 
 class Client
 {

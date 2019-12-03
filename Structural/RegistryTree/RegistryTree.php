@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPattern\RegistryTree;
+namespace PHPDesignPattern\RegistryTree;
 
 class RegistryTree
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPattern\Factory\FactoryMethod;
+namespace PHPDesignPattern\Factory\FactoryMethod;
 
 /**
  * 工厂方法父类

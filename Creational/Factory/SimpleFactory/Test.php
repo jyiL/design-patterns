@@ -1,9 +1,9 @@
 <?php
 
-require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../../../vendor/autoload.php';
 
-use DesignPattern\Factory\SimpleFactory\SimpleFactory;
-use DesignPattern\Factory\SimpleFactory\StaticFactory;
+use PHPDesignPattern\Factory\SimpleFactory\SimpleFactory;
+use PHPDesignPattern\Factory\SimpleFactory\StaticFactory;
 
 $pay1 = StaticFactory::pay('WeChatPay');
 $pay1->pay();

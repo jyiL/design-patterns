@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPattern\Factory\AbstractFactory;
+namespace PHPDesignPattern\Factory\AbstractFactory;
 
 class WomanFactory implements Factory
 {

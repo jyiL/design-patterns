@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPattern\Factory\OptimizeAbstractFactory;
+namespace PHPDesignPattern\Factory\OptimizeAbstractFactory;
 
 /**
  * 猴子产品接口

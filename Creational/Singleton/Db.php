@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPattern\Singleton;
+namespace PHPDesignPattern\Singleton;
 
 class Db
 {
@@ -50,10 +50,10 @@ class Db
 /*
  * 1
  * 多个句柄
- * class DesignPattern\Singleton\Db#1 (0) {
+ * class PHPDesignPattern\Singleton\Db#1 (0) {
  * }
  *
- * class DesignPattern\Singleton\Db#2 (0) {
+ * class PHPDesignPattern\Singleton\Db#2 (0) {
  * }
  *
  */
@@ -66,10 +66,10 @@ $db4 = Db::getInstance();
 /*
  * 2
  * 依然是多个句柄
- * class DesignPattern\Singleton\Db#1 (0) {
+ * class PHPDesignPattern\Singleton\Db#1 (0) {
  * }
  *
- * class DesignPattern\Singleton\Db#2 (0) {
+ * class PHPDesignPattern\Singleton\Db#2 (0) {
  * }
  *
  */
@@ -78,10 +78,10 @@ var_dump($db3, $db4);
 /*
  * 3
  * 1个句柄
- * class DesignPattern\Singleton\Db#1 (0) {
+ * class PHPDesignPattern\Singleton\Db#1 (0) {
  * }
  *
- * class DesignPattern\Singleton\Db#1 (0) {
+ * class PHPDesignPattern\Singleton\Db#1 (0) {
  * }
  *
  */
@@ -90,10 +90,10 @@ var_dump($db3, $db4);
 /*
  * 4
  * 克隆会产生多个句柄
- * class DesignPattern\Singleton\Db#1 (0) {
+ * class PHPDesignPattern\Singleton\Db#1 (0) {
  * }
  *
- * class DesignPattern\Singleton\Db#2 (0) {
+ * class PHPDesignPattern\Singleton\Db#2 (0) {
  * }
  *
  */
@@ -104,10 +104,10 @@ $db6 = unserialize(serialize($db4));
 /*
  * 5
  * 反序列化对象会产生多个句柄
- * class DesignPattern\Singleton\Db#1 (0) {
+ * class PHPDesignPattern\Singleton\Db#1 (0) {
  * }
  *
- * class DesignPattern\Singleton\Db#2 (0) {
+ * class PHPDesignPattern\Singleton\Db#2 (0) {
  * }
  *
  */

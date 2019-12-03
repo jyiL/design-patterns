@@ -1,9 +1,9 @@
 <?php
 
-require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../../../vendor/autoload.php';
 
-use DesignPattern\Factory\FactoryMethod\FactoryAli;
-use DesignPattern\Factory\FactoryMethod\FactoryWeChat;
+use PHPDesignPattern\Factory\FactoryMethod\FactoryAli;
+use PHPDesignPattern\Factory\FactoryMethod\FactoryWeChat;
 
 class Client
 {

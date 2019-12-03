@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPattern\Factory\OptimizeAbstractFactory;
+namespace PHPDesignPattern\Factory\OptimizeAbstractFactory;
 
-require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../../../vendor/autoload.php';
 
 class Client
 {

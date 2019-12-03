@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPattern\Factory\OptimizeAbstractFactory;
+namespace PHPDesignPattern\Factory\OptimizeAbstractFactory;
 
 class Factory
 {

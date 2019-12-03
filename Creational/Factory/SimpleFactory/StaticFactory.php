@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPattern\Factory\SimpleFactory;
+namespace PHPDesignPattern\Factory\SimpleFactory;
 
 /**
  * 静态工厂模式

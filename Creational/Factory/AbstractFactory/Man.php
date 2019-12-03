@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPattern\Factory\AbstractFactory;
+namespace PHPDesignPattern\Factory\AbstractFactory;
 
 /**
  * 具体产品类
